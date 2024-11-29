@@ -1,9 +1,18 @@
-# Sync: Synchronize Production data from SQL and NOSQL Replica Sets or Sharded Clusters to Standalone Instances
+# Sync
 
-A Go-based tool to synchronize MongoDB or SQL data from a **MongoDB replica set** or **sharded cluster** or production SQL instance to a **standalone instance**, supports initial and incremental synchronization with change stream monitoring.
+Synchronize Production NOSQL and SQL data to Standalone instances for Data scientists or other purposes. A **Go-based** tool to synchronize MongoDB or SQL data from a **MongoDB replica set** or **sharded cluster** or production SQL instance to a **standalone instance**, supports initial and incremental synchronization with change stream monitoring.
 
 > [!NOTE]
 > We are experimenting with SQL options and plan to release the feature in **sync** version 2.0.
+
+## Supported Databases
+
+- MongoDB (Sharded clusters, Replica sets)
+- MySQL (TBD)
+- MariaDB (TBD)
+- PgSQL (TBD)
+
+## High Level Architecture
 
 ![image](https://github.com/user-attachments/assets/f600c3ae-a6bf-4d64-9a7b-6715456a146b)
 
