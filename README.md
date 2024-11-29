@@ -1,9 +1,11 @@
-# MongoDB Sync: Synchronize Data from Replica Sets or Sharded Clusters to Standalone Instances
+# Sync: Synchronize Production data from SQL and NOSQL Replica Sets or Sharded Clusters to Standalone Instances
 
-A Go-based tool to synchronize MongoDB data from a **MongoDB replica set** or **sharded cluster** to a **standalone MongoDB instance**, supporting both initial and incremental synchronization with change stream monitoring.
+A Go-based tool to synchronize MongoDB or SQL data from a **MongoDB replica set** or **sharded cluster** or production SQL instance to a **standalone instance**, supports initial and incremental synchronization with change stream monitoring.
+
+> [!NOTE]
+> We are experimenting with SQL options and plan to release the feature in **sync** version 2.0.
 
 ![image](https://github.com/user-attachments/assets/f600c3ae-a6bf-4d64-9a7b-6715456a146b)
-
 
 
 ## Features
